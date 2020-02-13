@@ -16,4 +16,9 @@ public class AddRemove extends Fragment {
         return inflater.inflate(R.layout.activity_addremove, container, false);
     }
 
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+    }
 }
