@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">It\'s a long story!</string>
+    <string name="tab_text_1">Ask Me</string>
+    <string name="tab_text_2">Add/Remove Files</string>
+    <string name="askmeDescription">Choose a file and ask your questions</string>
+    <string name="CurrentFiles">Following are the current files:</string>
+</resources>
