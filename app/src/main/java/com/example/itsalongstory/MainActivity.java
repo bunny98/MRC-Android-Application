@@ -15,6 +15,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.provider.SyncStateContract;
 import android.util.Log;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -86,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -98,7 +102,6 @@ public class MainActivity extends AppCompatActivity {
                     1);
 
         }
-
 
         SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
 

@@ -59,7 +59,6 @@ public class AddRemove extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
         btnChooseFile = (Button) view.findViewById(R.id.btn_choose_file);
         tvItemPath = (TextView) view.findViewById(R.id.tv_file_path);
 
@@ -81,14 +80,15 @@ public class AddRemove extends Fragment {
         boolean success;
         @SerializedName("message")
         String message;
+
         String getMessage() {
             return message;
         }
+
         boolean getSuccess() {
             return success;
         }
     }
-
 
 
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
